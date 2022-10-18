@@ -1,0 +1,745 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Introduction &#8212; Thandolwethu Dlamini TPP Masters Thesis</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js,"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://github.com/Shakes-tzd/TPPMastersThesis/book/chap1.html" />
+    <link rel="shortcut icon" href="../_static/fav.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Intro Code" href="chapter1_notebook.html" />
+    <link rel="prev" title="Acknowledgments" href="Acknowledgments.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Thandolwethu Dlamini TPP Masters Thesis</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Acknowledgments.html">
+   Acknowledgments
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapter1_notebook.html">
+   Intro Code
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="bibliography.html">
+   Bibliography
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/Shakes-tzd/TPPMastersThesis"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Shakes-tzd/TPPMastersThesis/issues/new?title=Issue%20on%20page%20%2Fbook/chap1.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Shakes-tzd/TPPMastersThesis/edit/master/book/chap1.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/book/chap1.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#motivation">
+   Motivation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mercury-use-in-artisanal-and-small-scale-gold-mining">
+   Mercury Use in Artisanal and Small-Scale Gold Mining
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#asgm-measures-in-the-minamata-convention">
+   ASGM Measures in the Minamata Convention
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#case-study-region">
+   Case Study Region
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#thesis-questions">
+   Thesis Questions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#organization">
+   Organization
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Introduction</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#motivation">
+   Motivation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mercury-use-in-artisanal-and-small-scale-gold-mining">
+   Mercury Use in Artisanal and Small-Scale Gold Mining
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#asgm-measures-in-the-minamata-convention">
+   ASGM Measures in the Minamata Convention
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#case-study-region">
+   Case Study Region
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#thesis-questions">
+   Thesis Questions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#organization">
+   Organization
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h1>
+<p>Mercury (Hg) is a severe health hazard in the environment and for
+people, especially fetuses and young children<span id="id1">[<a class="reference internal" href="bibliography.html#id51" title="Herman Gibb and Keri Grace O’Leary. Mercury Exposure and Health Impacts among Individuals in the Artisanal and Small-Scale Gold Mining Community: A Comprehensive Review. Environ Health Perspect, 122(7):667–672, July 2014. URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4080518/ (visited on 2022-07-25), doi:10.1289/ehp.1307864.">Gibb and O’Leary, 2014</a>]</span>. The
+release of mercury into the atmosphere results from human activities and
+natural processes. Upon release, mercury moves between the air, soils,
+and waters until, eventually, it is removed from the system through
+burial in coastal and deep ocean sediments, lake sediments, and
+subsurface soils <span id="id2">[<a class="reference internal" href="bibliography.html#id10" title="Louisa J. Esdaile and Justin M. Chalker. The Mercury Problem in Artisanal and Small-Scale Gold Mining. Chemistry - A European Journal, 24(27):6905–6916, 2018. doi:10.1002/chem.201704840.">Esdaile and Chalker, 2018</a>]</span>. Moreover, mercury can travel
+great distances when emitted into the atmosphere, contaminating
+ecosystems, fish, birds, mammals, and human food chains
+<span id="id3">[<a class="reference internal" href="bibliography.html#id10" title="Louisa J. Esdaile and Justin M. Chalker. The Mercury Problem in Artisanal and Small-Scale Gold Mining. Chemistry - A European Journal, 24(27):6905–6916, 2018. doi:10.1002/chem.201704840.">Esdaile and Chalker, 2018</a>]</span>. Recent estimates, as seen in Figure
+<a class="reference external" href="#fig:gma2018_hg-emissions_by-industry">1.1</a>{reference-type=”ref”
+reference=”fig:gma2018_hg-emissions_by-industry”}, indicate that about
+38% of global Hg emissions come from ASGM, making it the largest source
+of Hg pollution to the atmosphere and hydrosphere around the
+world<span id="id4">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>. However,
+the amount of Hg released by ASGM activities and the extent to which it
+is transported regionally and globally is highly uncertain. This thesis
+examines how top-down emissions estimation techniques can help reduce
+the uncertainty in ASGM Hg estimates. First, we will briefly describe
+the Hg problem in ASGM. As a next step, we review the state of
+atmospheric Hg monitoring and modeling in regions where ASGM activities
+are prevalent. In addition, we use observed atmospheric Hg
+concentrations and atmospheric Hg predictions produced by the GEOS-Chem
+Model to come up with the first-ever top-down estimates of ASGM Hg
+emissions for a region in Peru. Lastly, we synthesize the findings and
+make recommendations for policymakers to use monitoring and modeling to
+better understand ASGM Hg emissions. To comply with the Minamata
+Convention, we will use the term “Hg emissions” throughout this thesis
+to refer to Hg discharges into the atmosphere and “Hg releases” to
+refer to Hg discharges into the ground and water. “Hg discharge” will
+be used when referring to both emissions and releases.</p>
+<figure class="align-default" id="gma2018-hg-emissions-by-industry">
+<a class="reference internal image-reference" href="../_images/07-24-22_gma2018_hg-emissions_by-industry.png"><img alt="../_images/07-24-22_gma2018_hg-emissions_by-industry.png" src="../_images/07-24-22_gma2018_hg-emissions_by-industry.png" style="width: 729.5px; height: 521.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Pie chart showing the 2018 global mercury assessment (GMA 2018) ASGM Hg emission estimates for different sectors. ASGM is estimated to emit the most Hg emissions (shown in orange) at 838 Mg, followed by industry sectors (shown in red) at 614 Mg, then fuel combustion (shown in blue) at 533 Mg, and finally, intentional use sectors excluding ASGM (show in green) at 239 Mg <span id="id5">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>.</span><a class="headerlink" href="#gma2018-hg-emissions-by-industry" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="motivation">
+<h2>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">#</a></h2>
+<p>More than 100 million people depend on artisanal and small-scale gold
+mining (ASGM) for their livelihood globally, particularly in the over 81
+countries, predominantly in the global south where ASGM
+exists<span id="id6">[<a class="reference internal" href="bibliography.html#id21">planetGOLD, 2021</a>]</span>. Additionally, ASGM is an essential
+source of income and an opportunity for rural development in countries
+where options and alternatives to ASGM for generating income to buy
+necessities of daily life are in short supply or nonexistent
+<span id="id7">[<a class="reference internal" href="bibliography.html#id21">planetGOLD, 2021</a>]</span>. It is estimated that around 10 to 20
+million (ASGM) miners are employed in ASGM worldwide - about a third of
+them are women - and they provide 90% of the global gold mining
+workforce and extract about 20% of the world’s gold annually
+<span id="id8">[<a class="reference internal" href="bibliography.html#id21">planetGOLD, 2021</a>]</span>. For example, in Peru, ASGM sustains the
+livelihoods of an estimated 1 million people, and between 300,000 and
+500,000 miners were involved in Peru’s ASGM sector as of 2014. Despite
+being a vital source of livelihood for the communities that practice
+ASGM, its activities often lead to several environmental, human, and
+social harms. In addition to Hg releases to the environment, ASGM
+externalities include deforestation, tropical diseases such as malaria,
+dangerous and unsafe working conditions, crime and exploitation of
+indigenous communities, diesel and gasoline spills, and human
+trafficking <span id="id9">[<a class="reference internal" href="bibliography.html#id7" title="USAID. USAID. 2020. Case Study ASM and ASGM in Madre de Dios.pdf. October 2020. URL: https://www.planetgold.org/sites/default/files/2020-12/USAID.%202020.%20Case%20Study%20ASM%20and%20ASGM%20in%20Madre%20de%20Dios.pdf.">USAID, 2020</a>]</span>.</p>
+<p>While most of the Hg pollution from ASGM is local, its ability to travel
+across borders and contaminate distant ecosystems bolsters the case for
+concerted global efforts to eliminate Hg pollution in all forms,
+including ASGM Hg pollution. The Minamata Convention (MC) is one of the
+unified global efforts to combat Hg pollution. It is a legally binding
+global treaty with 137 parties as of this writing, and its goal is to
+protect human health and the environment from the adverse effects of
+mercury. The MC’s text comprises articles that address different sources
+of Hg pollution, including ASGM Hg emissions<span id="id10">[<a class="reference internal" href="bibliography.html#id49">UNEP, 2013</a>]</span>. This
+thesis work is inspired by the need to improve our understanding of Hg
+emissions and Hg’s regional and global transport to ensure that policies
+and actions taken to reduce ASGM Hg emissions are informed by the best
+available science and take advantage of all resources at our disposal to
+create actionable scientific knowledge.</p>
+</section>
+<section id="mercury-use-in-artisanal-and-small-scale-gold-mining">
+<h2>Mercury Use in Artisanal and Small-Scale Gold Mining<a class="headerlink" href="#mercury-use-in-artisanal-and-small-scale-gold-mining" title="Permalink to this headline">#</a></h2>
+<p>During ASGM, Hg is added to the gold ore to form a mercury-gold amalgam,
+a mixture of about equal amounts of Hg and
+gold<span id="id11">[]</span>. Heat is
+applied to the amalgam, which evaporates the Hg, leaving the gold
+behind. Gold extraction using this method is popular with the ASGM
+community since it is inexpensive, easy to use, and quick
+<span id="id12">[]</span>. Moreover, Hg is
+relatively effective at capturing gold when there are no alternatives
+but often captures less than 40%
+<span id="id13">[]</span>. There is
+usually a tremendous amount of Hg vapor in the air around amalgam
+burning sites, much higher than the World Health Organization(WHO) limit
+of 1.0 <span class="math notranslate nohighlight">\(\mu\)</span>g/m<span class="math notranslate nohighlight">\(^{3}\)</span><span id="id14">[<a class="reference internal" href="bibliography.html#id51" title="Herman Gibb and Keri Grace O’Leary. Mercury Exposure and Health Impacts among Individuals in the Artisanal and Small-Scale Gold Mining Community: A Comprehensive Review. Environ Health Perspect, 122(7):667–672, July 2014. URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4080518/ (visited on 2022-07-25), doi:10.1289/ehp.1307864.">Gibb and O’Leary, 2014</a>]</span>. The Hg emissions in ASGM are
+harmful to miners and members of their communities. Additionally, humans
+and ecosystems far away are also exposed to Hg risks because Hg travels
+globally through the atmosphere. As volatilized Hg subsequently settles
+in soil, rivers, bays, and oceans, anaerobic organisms transform it into
+methylmercury, and water bodies can become contaminated with
+methylmercury<span id="id15">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>.
+Methylmercury is absorbed and ingested by phytoplankton, zooplankton,
+and fish, and predator species such as sharks and swordfish that live a
+long time accumulate methylmercury and can cause health damages to
+people who eat fish<span id="id16">[<a class="reference internal" href="bibliography.html#id51" title="Herman Gibb and Keri Grace O’Leary. Mercury Exposure and Health Impacts among Individuals in the Artisanal and Small-Scale Gold Mining Community: A Comprehensive Review. Environ Health Perspect, 122(7):667–672, July 2014. URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4080518/ (visited on 2022-07-25), doi:10.1289/ehp.1307864.">Gibb and O’Leary, 2014</a>]</span>.</p>
+</section>
+<section id="asgm-measures-in-the-minamata-convention">
+<h2>ASGM Measures in the Minamata Convention<a class="headerlink" href="#asgm-measures-in-the-minamata-convention" title="Permalink to this headline">#</a></h2>
+<p>The MC was agreed upon at the fifth meeting of the Intergovernmental
+Negotiating Committee on Hg in Geneva, Switzerland, in January 2013 and
+formally adopted in October that year in Kumamoto, Japan. Moreover, the
+treaty entered into force on 16 August 2017, 90 days after the 50^th^
+instrument of ratification was deposited, and currently has 137 parties
+to the convention<span id="id17">[<a class="reference internal" href="bibliography.html#id49">UNEP, 2013</a>]</span>. The MC’s goal is to protect
+human health and the environment from the adverse effects of mercury,
+and it affirmed that global action is essential to address the Hg
+pollution problem. Article 7 and Annex C of the MC target ASGM. Article
+7 requires countries where Hg use in ASGM is “more than insignificant”
+to develop a National Action Plan (NAP) that details ways to reduce and,
+where possible, eliminate the use of Hg and Hg compounds. Each country
+should include in its NAP actions to stop some of the worst practices of
+ASGM, which include, among other things, (i) whole ore amalgamation,
+(ii) open burning of amalgam, (iii) burning of amalgam in residential
+areas (iv), and cyanide leaching in sediment or tailings to which Hg has
+been added without first removing the Hg
+<span id="id18">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>. Moreover,
+countries are required to include in their NAPs baseline estimates the
+quantities of Hg used in ASGM. The UNEP <em>Guidance Document: Developing a
+National Action Plan to Reduce and, Where Feasible, Eliminate Mercury
+Use in Artisanal and Small-Scale Gold Mining</em>(MC Monitoring Guidance)
+<span id="id19">[<a class="reference internal" href="bibliography.html#id79">UNEP and GMP, 2017</a>]</span> states that the goal should be to produce an
+estimate with an accuracy of <span class="math notranslate nohighlight">\(\pm\)</span> 30% and, at worst, <span class="math notranslate nohighlight">\(\pm\)</span> 50%. This is
+argued to be an obtainable level of confidence in the context of effort,
+time, and financial resources while being good enough to inform the NAP
+and allow for prioritization of actions <span id="id20">[<a class="reference internal" href="bibliography.html#id79">UNEP and GMP, 2017</a>]</span>. A vital
+component of the MC is Article 22, which specifies a variety of
+information that must be included when conducting the effectiveness
+evaluation of the MC. The article states that “the Conference of the
+Parties shall, at its first meeting, initiate the establishment of
+arrangements for providing itself with comparable monitoring data on the
+presence and movement of Hg and Hg compounds in the environment as well
+as trends in levels of Hg and Hg compounds observed in biotic media and
+vulnerable populations.” This thesis aims to demonstrate the value
+atmospheric modeling and monitoring would add to the process mandated by
+article 22 by evaluating the state of atmospheric monitoring and
+modeling in world regions with high ASGM incidence. Moreover, the role
+and the value of monitoring and modeling in the effectiveness evaluation
+of the MC were emphasized in the recently published MC Monitoring
+Guidance<span id="id21">[<a class="reference internal" href="bibliography.html#id46">UNEP, 2021</a>]</span>.</p>
+</section>
+<section id="case-study-region">
+<h2>Case Study Region<a class="headerlink" href="#case-study-region" title="Permalink to this headline">#</a></h2>
+<p>The estimated amounts of ASGM Hg emissions from the different countries
+vary. This is illustrated in Figure
+[1.2`(#fig:global_asgm_emissions){reference-type=”ref”
+reference=”fig:global_asgm_emissions”}, which is a map showing the GMA
+2018 ASGM emission estimates for 2015 for all countries worldwide that
+have ASGM emissions and a bar chart showing countries estimated to emit
+more than 10 tons/year of Hg from ASGM
+<span id="id22">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>. Moreover, the
+GMA 2018 reported that ASGM Hg emissions in Latin America were the
+highest <span id="id23">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>. Figure
+<a class="reference external" href="#fig:global_asgm_emissions">1.2</a>{reference-type=”ref”
+reference=”fig:global_asgm_emissions”} shows that Latin America has the
+highest concentration of countries have estimated ASGM Hg emissions
+above 40 tons/year
+<span id="id24">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>. Furthermore,
+Latin America has the highest average ratio of mercury losses to gold
+production at 4.63, according to Yoshimura et
+al.’s<span id="id25">[<a class="reference internal" href="bibliography.html#id11" title="Akihiro Yoshimura, Koyo Suemasu, and Marcello M. Veiga. Estimation of Mercury Losses and Gold Production by Artisanal and Small-Scale Gold Mining (ASGM). J. Sustain. Metall., 7(3):1045–1059, September 2021. URL: https://doi.org/10.1007/s40831-021-00394-8 (visited on 2022-05-23), doi:10.1007/s40831-021-00394-8.">Yoshimura <em>et al.</em>, 2021</a>]</span> estimate. This means that for every
+gram of gold produced, 4.63 grams of Hg are “lost” (i.e. discharged to
+the environment). Africa and Asia have the lowest at 1.96 and 1.23,
+respectively. However, atmospheric Hg data from Latin America are rare;
+hence Hg dynamics in the region are not well understood.</p>
+<p><img alt="World map showing the GMA 2018 ASGM emission estimates for allcountries worldwide that have estimated ASGM emissions and a bar chartshowing the countries estimated to emit more than 10 tons/year of Hgfrom ASGM." src="build/html/_images/07-24-22_gma2018_hg-emissions_by-industry.png" />{#fig:global_asgm_emissions
+width=”\textwidth”}</p>
+<p>Peru is the source of the largest ASGM Hg emissions in Latin America and
+the second largest source globally, as seen in Figure
+<a class="reference external" href="#fig:global_asgm_emissions">1.2</a>{reference-type=”ref”
+reference=”fig:global_asgm_emissions”}. In Peru, the Madre de Dios
+region provides an ideal place for Hg research because the process of
+ASGM in this region involves mainly an amalgamation of the whole ore,
+which is the more Hg-intensive of all ASGM processes and is recommended
+as a “worst practice” to be eliminated by the Minamata
+Convention<span id="id26">[<a class="reference internal" href="bibliography.html#id107">UNEP, 2017</a>]</span>. The process of whole ore amalgamation
+involves pouring liquid Hg into old oil drums and mixing it with
+gold-flecked sediment. Miners spend hours immersed in toxic mud with
+their pants rolled up to their knees in traditional winemaking style.
+The ratio of liquid Hg to gold amalgam is around
+2:1<span id="id27">[<a class="reference internal" href="bibliography.html#id102" title="Barbara Fraser. Peruvian Gold Rush Threatens Health and the Environment. Environ. Sci. Technol., 43(19):7162–7164, October 2009. Publisher: American Chemical Society. URL: https://doi.org/10.1021/es902347z (visited on 2022-08-15), doi:10.1021/es902347z.">Fraser, 2009</a>]</span>; <span id="id28">[<a class="reference internal" href="bibliography.html#id103" title="Jennifer J. Swenson, Catherine E. Carter, Jean-Christophe Domec, and Cesar I. Delgado. Gold Mining in the Peruvian Amazon: Global Prices, Deforestation, and Mercury Imports. PLOS ONE, 6(4):e18875, April 2011. Publisher: Public Library of Science. URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018875 (visited on 2022-08-15), doi:10.1371/journal.pone.0018875.">Swenson <em>et al.</em>, 2011</a>]</span>; <span id="id29">[<a class="reference internal" href="bibliography.html#id104" title="Marcello M. Veiga, Peter A. Maxson, and Lars D. Hylander. Origin and consumption of mercury in small-scale gold mining. Journal of Cleaner Production, 14(3):436–447, January 2006. URL: https://www.sciencedirect.com/science/article/pii/S0959652605000752 (visited on 2022-08-15), doi:10.1016/j.jclepro.2004.08.010.">Veiga <em>et al.</em>, 2006</a>]</span>. As
+soon as the mercury amalgam is formed, miners burn it off to sell the
+gold. Hg is often burned off by “gold-changers” in the open air with
+blowtorches in market areas also occupied by other local small
+businesses. In addition to posing environmental risks, this mercury can
+also harm women and children<span id="id30">[<a class="reference internal" href="bibliography.html#id101" title="Sarah E. Diringer, Beth J. Feingold, Ernesto J. Ortiz, John A. Gallis, Julio M. Araújo-Flores, Axel Berky, William K. Y. Pan, and Heileen Hsu-Kim. River transport of mercury from artisanal and small-scale gold mining and risks for dietary mercury exposure in Madre de Dios, Peru. Environ. Sci.: Processes Impacts, 17(2):478–487, February 2015. Publisher: The Royal Society of Chemistry. URL: https://pubs.rsc.org/en/content/articlelanding/2015/em/c4em00567h (visited on 2022-08-15), doi:10.1039/C4EM00567H.">Diringer <em>et al.</em>, 2015</a>]</span>.</p>
+<p>The Madre de Dios region is estimated to be the source of the largest
+quantities of Hg to the environment and the
+atmosphere<span id="id31">[]</span>. Madre de Dios, shown by the red outline
+in Figure <a class="reference external" href="#fig:PeruCS">1.3</a>{reference-type=”ref”
+reference=”fig:PeruCS”}, is a rainforest region between Bolivia and
+Brazil and covers roughly 85,000 square kilometers. The region’s name is
+derived from the name of a major river that runs through it, and smaller
+streams and rivers cross through it to provide transportation and
+fishing for indigenous communities. Furthermore, these waterways are the
+main sites of ASGM and, subsequently, Hg contamination
+<span id="id32">[<a class="reference internal" href="bibliography.html#id29" title="Katy Ashe. Elevated Mercury Concentrations in Humans of Madre de Dios, Peru. PLoS ONE, 7(3):e33305, March 2012. URL: https://dx.plos.org/10.1371/journal.pone.0033305 (visited on 2022-07-18), doi:10.1371/journal.pone.0033305.">Ashe, 2012</a>]</span>; <span id="id33">[]</span>. The other regions around Madre
+de Dios that are sources of large quantities of Hg are outlined in
+Figure <a class="reference external" href="#fig:PeruCS">1.3</a>{reference-type=”ref” reference=”fig:PeruCS”}.
+The department of Puno is highlighted in purple, Arequipa is shown by
+the blue outline, Ayachucho with the green outline, Apurimac with the
+orange outline, and Cusco with the maroon outline.</p>
+<p><img alt="Peruvian departments studied in this thesis. Some of these departmentswere predicted to be the prominent sources of ASGM Hg releases accordingto the Artisanal Gold Council's Inventory Report for the ASGM sector inPeru (2017)." src="build/html/_images/07-24-22_gma2018_hg-emissions_by-industry.png" />{#fig:PeruCS
+width=”\textwidth”}</p>
+<p>Environmental and human health effects of ASGM Hg pollution have been
+extensively studied in Madre de Dios. This thesis project seeks to
+complement previous studies and distinguish itself by investigating the
+extent to which the GEOS-Chem model can leverage existing measurements
+of Hg in the atmosphere to produce top-down estimates of ASGM Hg
+emissions from Madre de Dios and surrounding departments with reported
+ASGM activities.</p>
+</section>
+<section id="thesis-questions">
+<h2>Thesis Questions<a class="headerlink" href="#thesis-questions" title="Permalink to this headline">#</a></h2>
+<p>Several studies have identified atmospheric mercury monitoring as a
+primary and appropriate method to assess the effectiveness of the MC
+<span id="id34">[<a class="reference internal" href="bibliography.html#id71" title="Francesca Sprovieri, Nicola Pirrone, Mariantonia Bencardino, Francesco D'Amore, Francesco Carbone, Sergio Cinnirella, Valentino Mannarino, Matthew Landis, Ralf Ebinghaus, Andreas Weigelt, Ernst-Günther Brunke, Casper Labuschagne, Lynwill Martin, John Munthe, Ingvar Wängberg, Paulo Artaxo, Fernando Morais, Henrique de Melo Jorge Barbosa, Joel Brito, Warren Cairns, Carlo Barbante, María del Carmen Diéguez, Patricia Elizabeth Garcia, Aurélien Dommergue, Helene Angot, Olivier Magand, Henrik Skov, Milena Horvat, Jože Kotnik, Katie Alana Read, Luis Mendes Neves, Bernd Manfred Gawlik, Fabrizio Sena, Nikolay Mashyanov, Vladimir Obolkin, Dennis Wip, Xin Bin Feng, Hui Zhang, Xuewu Fu, Ramesh Ramachandran, Daniel Cossa, Joël Knoery, Nicolas Marusczak, Michelle Nerentorp, and Claus Norstrom. Atmospheric mercury concentrations observed at ground-based monitoring sites globally distributed in the framework of the GMOS network. Atmospheric Chemistry and Physics, 16(18):11915–11935, September 2016. Publisher: Copernicus GmbH. URL: https://acp.copernicus.org/articles/16/11915/2016/ (visited on 2022-07-25), doi:10.5194/acp-16-11915-2016.">Sprovieri <em>et al.</em>, 2016</a>]</span>; <span id="id35">[<a class="reference internal" href="bibliography.html#id26" title="David C. Evers, Susan Egan Keane, Niladri Basu, and David Buck. Evaluating the effectiveness of the Minamata Convention on Mercury: Principles and recommendations for next steps. Science of The Total Environment, 569-570:888–903, November 2016. URL: https://linkinghub.elsevier.com/retrieve/pii/S0048969716309068 (visited on 2022-06-02), doi:10.1016/j.scitotenv.2016.05.001.">Evers <em>et al.</em>, 2016</a>]</span>; <span id="id36">[<a class="reference internal" href="bibliography.html#id80" title="M. S. Gustin, H. M. Amos, J. Huang, M. B. Miller, and K. Heidecorn. Measuring and modeling mercury in the atmosphere: a critical review. Atmospheric Chemistry and Physics, 15(10):5697–5713, 2015. Num Pages: 5697-5713 Place: Katlenburg-Lindau, Germany Publisher: Copernicus GmbH. URL: https://www.proquest.com/docview/2414653251/abstract/E544060B9701420CPQ/1 (visited on 2022-07-27), doi:10.5194/acp-15-5697-2015.">Gustin <em>et al.</em>, 2015</a>]</span>; <span id="id37">[<a class="reference internal" href="bibliography.html#id20">United Nations Environment Programme, 2019</a>]</span>.
+Additionally, according to the MC’s Monitoring Guidance one of the
+primary objectives of monitoring Hg in the atmosphere is to provide data
+for the development and improvement of transport and chemistry
+models<span id="id38">[<a class="reference internal" href="bibliography.html#id46">UNEP, 2021</a>]</span>. However, few studies have shown how
+monitoring data and atmospheric models can inform policy on ASGM Hg
+emissions. Therefore, we seek to answer the following questions based on
+the assumption that using chemical transport models (CTMs), such as
+GEOS-Chem, we can synthesize data from national and global Hg
+inventories and atmospheric monitoring networks for tracking progress
+and assessing MC’s effectiveness:</p>
+<ol class="simple">
+<li><p>To what extent can regional atmospheric modeling and monitoring help
+reconcile the differences in the current global estimates of
+emissions and national emissions?</p></li>
+<li><p>How can regional monitoring networks improve the utility of models
+for evaluating the effectiveness of MCs?</p></li>
+<li><p>Which atmospheric modeling and monitoring should be prioritized by
+governments and policy makers to obtain actionable information about
+Hg reductions?</p></li>
+</ol>
+</section>
+<section id="organization">
+<h2>Organization<a class="headerlink" href="#organization" title="Permalink to this headline">#</a></h2>
+<p>This introductory chapter has provided a general background on ASGM
+concerning Hg emissions and the extent of global efforts to protect
+people and the environment from the adverse effects of Hg pollution.
+Chapter 2 compares the temporal and spatial characteristics of observed
+and modeled atmospheric Hg concentrations. It addresses aspects of the
+first thesis question by evaluating GEOS-Chem modeled atmospheric Hg
+concentrations across Latin America with observed Hg concentrations at
+various regional sites. In chapter 3, a method is presented for
+estimating ASGM Hg emissions. Using atmospheric modeling and monitoring,
+it is demonstrated how different ASGM Hg emissions inventories can be
+reconciled and how monitoring networks can enhance models’ utility.
+Finally, chapter 4 presents policy recommendations and conclusions to
+address the third research question.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./book"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="Acknowledgments.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Acknowledgments</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="chapter1_notebook.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Intro Code</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Thandolwethu Dlamini<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
