@@ -78,12 +78,6 @@ sphinx:
           colab_url: "https://colab.research.google.com",
         }
     bibtex_reference_style: label
-  extra_extensions:
-    - sphinx_click.ext
-    - sphinx_inline_tabs
-    - sphinxext.rediraffe
-    - sphinx_proof
-    - sphinx_examples
 
 
 # Define the name of the latex output file for PDF builds
