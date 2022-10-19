@@ -10,9 +10,7 @@ burial in coastal and deep ocean sediments, lake sediments, and
 subsurface soils {cite}`esdaile_mercury_2018`. Moreover, mercury can travel
 great distances when emitted into the atmosphere, contaminating
 ecosystems, fish, birds, mammals, and human food chains
-{cite}`esdaile_mercury_2018`. Recent estimates, as seen in Figure
-[1.1](#fig:gma2018_hg-emissions_by-industry){reference-type="ref"
-reference="fig:gma2018_hg-emissions_by-industry"}, indicate that about
+{cite}`esdaile_mercury_2018`. Recent estimates, as seen in {numref}`gma2018_hg-emissions_by-industry`, indicate that about
 38% of global Hg emissions come from ASGM, making it the largest source
 of Hg pollution to the atmosphere and hydrosphere around the
 world{cite}`united_nations_environment_programme_technical_2019`. However,
@@ -157,24 +155,15 @@ Case Study Region
 -----------------
 
 The estimated amounts of ASGM Hg emissions from the different countries
-vary. This is illustrated in Figure
-[1.2`(#fig:global_asgm_emissions){reference-type="ref"
-reference="fig:global_asgm_emissions"}, which is a map showing the GMA
+vary. This is illustrated in {numref}`global_asgm_emissions`, which is a map showing the GMA
 2018 ASGM emission estimates for 2015 for all countries worldwide that
 have ASGM emissions and a bar chart showing countries estimated to emit
 more than 10 tons/year of Hg from ASGM
 {cite}`united_nations_environment_programme_technical_2019`. Moreover, the
 GMA 2018 reported that ASGM Hg emissions in Latin America were the
-highest {cite}`united_nations_environment_programme_technical_2019`. Figure
-[1.2](#fig:global_asgm_emissions){reference-type="ref"
-reference="fig:global_asgm_emissions"} shows that Latin America has the
+highest {cite}`united_nations_environment_programme_technical_2019`. {numref}`global_asgm_emissions` shows that Latin America has the
 highest concentration of countries have estimated ASGM Hg emissions
-above 40 tons/year
-{cite}`united_nations_environment_programme_technical_2019`. Furthermore,
-Latin America has the highest average ratio of mercury losses to gold
-production at 4.63, according to Yoshimura et
-al.'s{cite}`yoshimura_estimation_2021` estimate. This means that for every
-gram of gold produced, 4.63 grams of Hg are \"lost\" (i.e. discharged to
+above 40 tons/year {cite}`united_nations_environment_programme_technical_2019`.Furthermore, Latin America has the highest average ratio of mercury losses to goldproduction at 4.63, according to Yoshimura et al.'s{cite}`yoshimura_estimation_2021` estimate. This means that for every gram of gold produced, 4.63 grams of Hg are \"lost\" (i.e. discharged to
 the environment). Africa and Asia have the lowest at 1.96 and 1.23,
 respectively. However, atmospheric Hg data from Latin America are rare;
 hence Hg dynamics in the region are not well understood.

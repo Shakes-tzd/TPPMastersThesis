@@ -1,5 +1,10 @@
 jupyter-book
 jupytext
 matplotlib
-numpy
 ghp-import
+numpy 
+pandas
+matplotlib.pyplot
+plotly.express
+seaborn
+matplotlib
