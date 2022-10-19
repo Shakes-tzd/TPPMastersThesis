@@ -52,6 +52,17 @@ html:
 
 sphinx:
   config:
+    nb_render_priority:
+        html:
+        - "application/vnd.jupyter.widget-view+json"
+        - "application/javascript"
+        - "text/html"
+        - "image/svg+xml"
+        - "image/png"
+        - "image/jpeg"
+        - "text/markdown"
+        - "text/latex"
+        - "text/plain"
     html_js_files:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js,
     # html_extra_path: ["CNAME", "robots.txt"]
@@ -67,6 +78,12 @@ sphinx:
           colab_url: "https://colab.research.google.com",
         }
     bibtex_reference_style: label
+  extra_extensions:
+    - sphinx_click.ext
+    - sphinx_inline_tabs
+    - sphinxext.rediraffe
+    - sphinx_proof
+    - sphinx_examples
 
 
 # Define the name of the latex output file for PDF builds

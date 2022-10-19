@@ -79,11 +79,22 @@ the NAP shall include baseline estimates of the quantities of Hg used
 and the practices employed in ASGM and processing. As of this writing,
 18 countries have submitted their respective NAPs. The estimates of how
 much Hg is used in their territories are shown in
-Figure[1.1](#fig:global-hg-emission-estimates_vs_nap_estimates), which
+{numref}`global-hg-emissions-estimates_vs_nap_estimates`, which
 is a bar chart comparing the estimates of annual average Hg emissions
 predicted in the GMA 2018 inventory in light blue vs. annual average Hg
 emissions baseline estimates (shown in dark blue) that were reported by
 the respective countries in their NAPs .
+
+```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/global-hg-emissions-estimates_vs_nap_estimates_001.svg
+---
+scale: 100%
+name: global-hg-emissions-estimates_vs_nap_estimates
+---
+Bar chart comparing the estimates of annual average Hg emissions
+predicted in the GMA 2018 inventory in light blue vs. annual average Hg
+emissions baseline estimates (shown in dark blue) that were reported by
+the respective countries in their NAPs.
+```
 
 ![Bar chart comparing the estimates of annual average Hg emissions
 predicted in the GMA 2018 inventory in light blue vs. annual average Hg
@@ -91,7 +102,7 @@ emissions baseline estimates (shown in dark blue) that were reported by
 the respective countries in their NAPs 
 ](templates/figures/07-24-22_global-hg-emission-estimates_vs_nap_estimates.pdf)
 
-In Figure [1.1](#fig:global-hg-emission-estimates_vs_nap_estimates), it
+In {numref}`global-hg-emissions-estimates_vs_nap_estimates`, it
 is evident that the difference between the global estimates and the NAP
 estimates is vast for some countries. While the baseline estimates of Hg
 use in ASGM as reported in the NAPs and global inventories are critical,
@@ -116,10 +127,10 @@ CFC-11 emissions from eastern Asia.
 
 The above example about the Montreal protocol showcases the multiple
 benefits of atmospheric monitoring and modeling. For instance, Rigby et
-al. showed that emissions from eastern mainland China were 7.0 ± 3.0 (±1
+al.(2019) showed that emissions from eastern mainland China were 7.0 ± 3.0 (±1
 standard deviation) gigagrams per year higher in 2014–2017 than in
 2008–2012 and that the increase in emissions arose primarily around
-the northeastern provinces of Shandong and Hebei. This kind of precision
+the northeastern provinces of Shandong and Hebei {cite}`rigby_increase_2019`. This kind of precision
 of emission estimates and the approximate location of their sources
 would be beneficial for evaluating the effectiveness of MC efforts aimed
 at reducing Hg emissions. Policymakers would value such information
@@ -134,7 +145,7 @@ low likelihood of being sources of increase in emissions. This benefit
 was also demonstrated by Rigby et al. (2019) in that they could conclude
 that there was no evidence for a significant rise in CFC-11 emissions
 from any other eastern Asian countries or other regions of the world
-where there are available data for the detection of regional emissions.
+where there are available data for the detection of regional emissions{cite}`rigby_increase_2019`.
 
 A look at China’s response to scientific information about its increased
 CFC emissions in the Montreal Protocol example above may provide insight
