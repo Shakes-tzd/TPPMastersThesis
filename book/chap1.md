@@ -31,9 +31,9 @@ to refer to Hg discharges into the atmosphere and \"Hg releases\" to
 refer to Hg discharges into the ground and water. \"Hg discharge\" will
 be used when referring to both emissions and releases.
 
-```{figure} ../book/figures/GMA18/07-24-22_gma2018_hg-emissions_by-industry.png
+```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/gma2018_hg-emissions_by-industry_001.svg
 ---
-scale: 50%
+scale: 100%
 name: gma2018_hg-emissions_by-industry
 ---
 Pie chart showing the 2018 global mercury assessment (GMA 2018) ASGM Hg emission estimates for different sectors. ASGM is estimated to emit the most Hg emissions (shown in orange) at 838 Mg, followed by industry sectors (shown in red) at 614 Mg, then fuel combustion (shown in blue) at 533 Mg, and finally, intentional use sectors excluding ASGM (show in green) at 239 Mg {cite}`united_nations_environment_programme_technical_2019`.
@@ -168,17 +168,19 @@ the environment). Africa and Asia have the lowest at 1.96 and 1.23,
 respectively. However, atmospheric Hg data from Latin America are rare;
 hence Hg dynamics in the region are not well understood.
 
-![World map showing the GMA 2018 ASGM emission estimates for all
+```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/gma2018_asgm-emmiting-countries_001.svg
+---
+scale: 100%
+name: global_asgm_emissions
+---
+World map showing the GMA 2018 ASGM emission estimates for all
 countries worldwide that have estimated ASGM emissions and a bar chart
 showing the countries estimated to emit more than 10 tons/year of Hg
-from ASGM
-{cite}`united_nations_environment_programme_technical_2019`.](../build/html/_images/07-24-22_gma2018_hg-emissions_by-industry.png){#fig:global_asgm_emissions
-width="\\textwidth"}
+from ASGM {cite}`united_nations_environment_programme_technical_2019`.
+```
 
 Peru is the source of the largest ASGM Hg emissions in Latin America and
-the second largest source globally, as seen in Figure
-[1.2](#fig:global_asgm_emissions){reference-type="ref"
-reference="fig:global_asgm_emissions"}. In Peru, the Madre de Dios
+the second largest source globally, as seen in {numref}`global_asgm_emissions`. In Peru, the Madre de Dios
 region provides an ideal place for Hg research because the process of
 ASGM in this region involves mainly an amalgamation of the whole ore,
 which is the more Hg-intensive of all ASGM processes and is recommended
@@ -197,28 +199,30 @@ also harm women and children{cite}`diringer_river_2015`.
 
 The Madre de Dios region is estimated to be the source of the largest
 quantities of Hg to the environment and the
-atmosphere{cite}`agc_reporte_2017`. Madre de Dios, shown by the red outline
-in Figure [1.3](#fig:PeruCS){reference-type="ref"
-reference="fig:PeruCS"}, is a rainforest region between Bolivia and
+atmosphere{cite}`artisanal_gold_council_reporte_2017`. Madre de Dios, shown by the red outline
+in {numref}`peru_case-study-region`, is a rainforest region between Bolivia and
 Brazil and covers roughly 85,000 square kilometers. The region's name is
 derived from the name of a major river that runs through it, and smaller
 streams and rivers cross through it to provide transportation and
 fishing for indigenous communities. Furthermore, these waterways are the
 main sites of ASGM and, subsequently, Hg contamination
-{cite}`ashe_elevated_2012`; {cite}`agc_reporte_2017`. The other regions around Madre
+{cite}`ashe_elevated_2012`; {cite}`artisanal_gold_council_reporte_2017`. The other regions around Madre
 de Dios that are sources of large quantities of Hg are outlined in
-Figure [1.3](#fig:PeruCS){reference-type="ref" reference="fig:PeruCS"}.
+{numref}`peru_case-study-region`.
 The department of Puno is highlighted in purple, Arequipa is shown by
 the blue outline, Ayachucho with the green outline, Apurimac with the
 orange outline, and Cusco with the maroon outline.
 
-![Peruvian departments studied in this thesis. Some of these departments
+```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/peru_case-study-region_001.png
+---
+scale: 45%
+name: peru_case-study-region
+---
+Peruvian departments studied in this thesis. Some of these departments
 were predicted to be the prominent sources of ASGM Hg releases according
 to the Artisanal Gold Council's Inventory Report for the ASGM sector in
-Peru (2017){cite}`agc_reporte_2017`.
-](../build/html/_images/07-24-22_gma2018_hg-emissions_by-industry.png){#fig:PeruCS
-width="\\textwidth"}
-
+Peru (2017){cite}`artisanal_gold_council_reporte_2017`.
+```
 Environmental and human health effects of ASGM Hg pollution have been
 extensively studied in Madre de Dios. This thesis project seeks to
 complement previous studies and distinguish itself by investigating the

@@ -8,6 +8,7 @@ chapters:
   - file: book/Acknowledgments
   - file: book/chap1
   - file: book/MIT_TPP_thesis/Thesis_JP_notebooks/chapter_1
+  - file: book/chap4
   - file: book/MIT_TPP_thesis/Thesis_JP_notebooks/chapter_4
   - file: book/bibliography
 
