@@ -85,9 +85,9 @@ predicted in the GMA 2018 inventory in light blue vs. annual average Hg
 emissions baseline estimates (shown in dark blue) that were reported by
 the respective countries in their NAPs .
 
-```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/global-hg-emissions-estimates_vs_nap_estimates_001.svg
+```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_4/global-hg-emissions-estimates_vs_nap_estimates_001.svg
 ---
-scale: 100%
+height: 400px
 name: global-hg-emissions-estimates_vs_nap_estimates
 ---
 Bar chart comparing the estimates of annual average Hg emissions
@@ -95,12 +95,6 @@ predicted in the GMA 2018 inventory in light blue vs. annual average Hg
 emissions baseline estimates (shown in dark blue) that were reported by
 the respective countries in their NAPs.
 ```
-
-![Bar chart comparing the estimates of annual average Hg emissions
-predicted in the GMA 2018 inventory in light blue vs. annual average Hg
-emissions baseline estimates (shown in dark blue) that were reported by
-the respective countries in their NAPs 
-](templates/figures/07-24-22_global-hg-emission-estimates_vs_nap_estimates.pdf)
 
 In {numref}`global-hg-emissions-estimates_vs_nap_estimates`, it
 is evident that the difference between the global estimates and the NAP
