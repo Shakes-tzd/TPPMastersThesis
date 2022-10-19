@@ -7,7 +7,8 @@ chapters:
   # - file: book/markdown
   - file: book/Acknowledgments
   - file: book/chap1
-  - file: book/chapter1_notebook
+  - file: book/MIT_TPP_thesis/Thesis_JP_notebooks/chapter_1
+  - file: book/MIT_TPP_thesis/Thesis_JP_notebooks/chapter_4
   - file: book/bibliography
 
 # Or you organize the TOC by parts
