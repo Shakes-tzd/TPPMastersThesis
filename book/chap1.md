@@ -213,7 +213,7 @@ The department of Puno is highlighted in purple, Arequipa is shown by
 the blue outline, Ayachucho with the green outline, Apurimac with the
 orange outline, and Cusco with the maroon outline.
 
-```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/peru_case-study-region_001.png
+```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/peru_case-study-region_001.svg
 ---
 scale: 45%
 name: peru_case-study-region
