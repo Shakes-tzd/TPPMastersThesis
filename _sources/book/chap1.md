@@ -215,7 +215,7 @@ orange outline, and Cusco with the maroon outline.
 
 ```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/peru_case-study-region_001.svg
 ---
-scale: 100%
+height: 600px
 name: peru_case-study-region
 ---
 Peruvian departments studied in this thesis. Some of these departments
