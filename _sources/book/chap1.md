@@ -31,7 +31,7 @@ to refer to Hg discharges into the atmosphere and \"Hg releases\" to
 refer to Hg discharges into the ground and water. \"Hg discharge\" will
 be used when referring to both emissions and releases.
 
-```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/gma2018_hg-emissions_by-industry_001.svg
+```{figure} UpdatedFigures/chapter_1/gma2018_hg-emissions_by-industry_001.svg
 ---
 scale: 100%
 name: gma2018_hg-emissions_by-industry
@@ -168,7 +168,7 @@ the environment). Africa and Asia have the lowest at 1.96 and 1.23,
 respectively. However, atmospheric Hg data from Latin America are rare;
 hence Hg dynamics in the region are not well understood.
 
-```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/gma2018_asgm-emmiting-countries_001.svg
+```{figure} UpdatedFigures/chapter_1/gma2018_asgm-emmiting-countries_001.svg
 ---
 scale: 100%
 name: global_asgm_emissions
@@ -213,7 +213,7 @@ The department of Puno is highlighted in purple, Arequipa is shown by
 the blue outline, Ayachucho with the green outline, Apurimac with the
 orange outline, and Cusco with the maroon outline.
 
-```{figure} MIT_TPP_thesis/UpdatedFigures/chapter_1/peru_case-study-region_001.svg
+```{figure} UpdatedFigures/chapter_1/peru_case-study-region_001.svg
 ---
 height: 600px
 name: peru_case-study-region
