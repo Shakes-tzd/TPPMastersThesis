@@ -8,10 +8,10 @@ options:  # The options key will be applied to all chapters, but not sub-section
 chapters:
   - file: book/chap1
     sections:
-        - file: book/MIT_TPP_thesis/Thesis_JP_notebooks/chapter_1
+        - file: book/Thesis_JP_notebooks/chapter_1
   - file: book/chap4
     sections:
-        - file: book/MIT_TPP_thesis/Thesis_JP_notebooks/chapter_4
+        - file: book/Thesis_JP_notebooks/chapter_4
   - file: book/bibliography
 
 # Or you organize the TOC by parts
