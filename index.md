@@ -38,7 +38,6 @@ Get Started
 
 ::::
 
-```
 ---
 # Assessing the role of top-down techniques for improving regional estimates of artisanal and small-scale gold mining mercury emissions
 ## Abstract
@@ -70,4 +69,4 @@ The Technology and Policy Program does not require students to submit their work
 1. This was a helpful tool for showcasing my writing skills, data analysis skills, and Python skills.
 
 2. Before embarking on my thesis journey, I would have liked to see a thesis's complete content (code + text), so I hope that future TPP students will also find this resource helpful.
- 
+```
