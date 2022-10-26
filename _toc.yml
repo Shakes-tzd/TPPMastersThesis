@@ -9,8 +9,8 @@ chapters:
   - file: book/chap1
     sections:
         - file: book/Thesis_JP_notebooks/chapter_1
-  - file: book/chap2
-  - file: book/chap3
+  # - file: book/chap2
+  # - file: book/chap3
   - file: book/chap4
     sections:
         - file: book/Thesis_JP_notebooks/chapter_4
