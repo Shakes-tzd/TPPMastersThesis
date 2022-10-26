@@ -37,14 +37,7 @@ Get Started
 :::
 
 ::::
-```{margin}
-:::{note}
-The Technology and Policy Program does not require students to submit their work in this format. However, I published my work as a jupyter-book for the following reasons:
 
-1. This was a helpful tool for showcasing my writing skills, data analysis skills, and Python skills.
-
-2. Before embarking on my thesis journey, I would have liked to see a thesis's complete content (code + text), so I hope that future TPP students will also find this resource helpful.
-:::
 ```
 ---
 # Assessing the role of top-down techniques for improving regional estimates of artisanal and small-scale gold mining mercury emissions
@@ -70,4 +63,11 @@ And finally, thank you to my family in Eswatini. I would not be where I am today
 :class: tip
 This research was supported by a grant (#1924148) from the US National Science Foundation.
 `````
+```{note}
+:class: dropdown
+The Technology and Policy Program does not require students to submit their work in this format. However, I published my work as a jupyter-book for the following reasons:
+
+1. This was a helpful tool for showcasing my writing skills, data analysis skills, and Python skills.
+
+2. Before embarking on my thesis journey, I would have liked to see a thesis's complete content (code + text), so I hope that future TPP students will also find this resource helpful.
  
